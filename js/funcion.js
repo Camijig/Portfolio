@@ -104,7 +104,6 @@ function  seleccionar2(link){
   links[2].className = "";
   links[3].className = "";
   links[4].className = "";
-  links[5].className = "";
 
   //agregamos el estilo al link seleccionado
   link.className = "este"
