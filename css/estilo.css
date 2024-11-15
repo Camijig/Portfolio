@@ -877,7 +877,12 @@ section  div  div  a:hover{
         border-radius: 20px;
         object-fit: cover;
     }
-
+    .perfil2{
+        width: 30vh;
+        height: auto;
+        border-radius: 25px;
+}
+    }
 }
 @media screen and (max-width: 561px){
     #sexto{
