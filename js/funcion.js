@@ -101,9 +101,9 @@ function  seleccionar2(link){
   let links = document.querySelectorAll("div#carpetas a")
   links[0].className = "";
   links[1].className = "";
-  links[2].className = "fotog";
-  links[3].className = "dibujos";
-  links[4].className = "piezas";
+  links[2].className = "";
+  links[3].className = "";
+  links[4].className = "";
   //agregamos el estilo al link seleccionado
   link.className = "este"
 }
@@ -128,7 +128,7 @@ function mostrar1(){
   document.getElementById('tercero').style.display = 'none';
   document.getElementById('cuarto').style.display = 'none';
   document.getElementById('quinto').style.display = 'none';
-  document.getElementById('sexto').style.display = 'none';
+
 }
  
 function mostrar2(){
@@ -138,7 +138,7 @@ function mostrar2(){
   document.getElementById('tercero').style.display = 'none';
   document.getElementById('cuarto').style.display = 'none';
   document.getElementById('quinto').style.display = 'none';
-  document.getElementById('sexto').style.display = 'none';
+
 }
  
 function mostrar3(){
@@ -148,7 +148,7 @@ function mostrar3(){
   document.getElementById('tercero').style.display = 'flex';
   document.getElementById('cuarto').style.display = 'none';
   document.getElementById('quinto').style.display = 'none';
-  document.getElementById('sexto').style.display = 'none';
+
 }
  
 function mostrar4(){
@@ -158,7 +158,7 @@ function mostrar4(){
   document.getElementById('tercero').style.display = 'none';
   document.getElementById('cuarto').style.display = 'flex';
   document.getElementById('quinto').style.display = 'none';
-  document.getElementById('sexto').style.display = 'none';
+
 }
  
 function mostrar5(){
@@ -168,18 +168,10 @@ function mostrar5(){
   document.getElementById('tercero').style.display = 'none';
   document.getElementById('cuarto').style.display = 'none';
   document.getElementById('quinto').style.display = 'flex';
-  document.getElementById('sexto').style.display = 'none';
+
 }
  
-function mostrar6(){
-  document.getElementById('trabajos').style.backgroundColor = '#3f3c90';
-  document.getElementById('primero').style.display = 'none';
-  document.getElementById('segundo').style.display = 'none';
-  document.getElementById('tercero').style.display = 'none';
-  document.getElementById('cuarto').style.display = 'none';
-  document.getElementById('quinto').style.display = 'none';
-  document.getElementById('sexto').style.display = 'flex';
-}
+
 
 // Galerí­a
 const images = document.querySelectorAll('.imge');
