@@ -112,13 +112,13 @@ function  seleccionar2(link){
 // ESTE ES PARA MOSTRAR CADA SECCIÓN en "sobre mi"
 
 function sobremi1(){
-  document.getElementById('part1').style.display = 'block';
-  document.getElementById('part2').style.display = 'none';
+  document.getElementById('res1').style.display = 'block';
+  document.getElementById('res2').style.display = 'none';
 
 }
 function sobremi2(){
-  document.getElementById('part1').style.display = 'none';
-  document.getElementById('part2').style.display = 'block';
+  document.getElementById('res1').style.display = 'none';
+  document.getElementById('res2').style.display = 'block';
 
 }
 // ESTE ES PARA MOSTRAR CADA SECCIÓN en "trabajos"
