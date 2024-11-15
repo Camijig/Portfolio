@@ -98,7 +98,7 @@ function  seleccionar(link){
 }
 
 function  seleccionar2(link){
-  let links = document.querySelectorAll("bajar a")
+  let links = document.querySelectorAll("section div div a")
   links[0].className = "";
   links[1].className = "";
   links[2].className = "";
