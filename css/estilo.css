@@ -893,7 +893,7 @@ section  div  div  a:hover{
 }
     
 }
-@media screen and (min-width: 561px){
+@media screen and (max-width: 561px){
     #sexto{
         flex-direction: column;
     }
