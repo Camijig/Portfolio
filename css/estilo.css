@@ -508,7 +508,7 @@ section  div  div  a:hover{
     width: 100%;
 }
 
-.primero, .segundo, .edu, .educ, .educa{
+.primero, .segundo, .tercero, .cuarto, .edu, .educ, .educa{
     position: absolute;
     display: none;
     width: 100%;
@@ -531,6 +531,12 @@ section  div  div  a:hover{
     display: block;
 }
 #amigoA:hover .segundo{
+    display: block;
+}
+#griky:hover .tercero{
+    display: block;
+}
+#decameron:hover .cuarto{
     display: block;
 }
 .hovers{
