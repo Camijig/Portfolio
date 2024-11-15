@@ -655,7 +655,7 @@ section  div  div  a:hover{
     }
     
 }
-@media screen (min-width: 561px) and (max-width: 718px) {
+@media screen and (max-width: 718px) {
     .boton{
         padding: 5px 50px;
         border-radius: 30px;
@@ -883,7 +883,7 @@ section  div  div  a:hover{
 }
     
 }
-@media screen and (max-width: 561px){
+@media screen and (min-width: 561px){
     #sexto{
         flex-direction: column;
     }
