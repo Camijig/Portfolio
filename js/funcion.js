@@ -98,7 +98,7 @@ function  seleccionar(link){
 }
 
 function  seleccionar2(link){
-  let links = document.querySelectorAll("section a")
+  let links = document.querySelectorAll("div#carpetas > a")
   links[0].className = "";
   links[1].className = "";
   links[2].className = "fotog";
