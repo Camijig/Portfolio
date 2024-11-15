@@ -98,13 +98,13 @@ function  seleccionar(link){
 }
 
 function  seleccionar2(link){
-  let links = document.querySelectorAll("section a")
-  links[0].className = "tres";
-  links[1].className = "dos";
-  links[2].className = "fotog";
-  links[3].className = "dibujos";
-  links[4].className = "piezas";
-  links[5].className = "web";
+  let links = document.querySelectorAll("bajar a")
+  links[0].className = "";
+  links[1].className = "";
+  links[2].className = "";
+  links[3].className = "";
+  links[4].className = "";
+  links[5].className = "";
 
   //agregamos el estilo al link seleccionado
   link.className = "este"
