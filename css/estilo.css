@@ -344,7 +344,9 @@ section  div  div  a:hover{
     flex-wrap: wrap;
     padding-bottom: 70px;
 }
-
+ #sexto{
+     display:none;
+     }
 
 .animacion{
     animation-duration: 2s; /* DuraciÃ³n de la animaciÃ³n en segundos */
@@ -896,6 +898,7 @@ section  div  div  a:hover{
 @media screen and (max-width: 561px){
     #sexto{
         flex-direction: column;
+        display: none
     }
     #cuarto img{
         width: 20vw;
