@@ -667,6 +667,9 @@ section  div  div  a:hover{
     
 }
 @media screen and (max-width: 718px) {
+    header{
+        display:none;
+         }
     #inicio #about #marca #trabajos #contacto{
         display: none;
     }
@@ -696,3 +699,5 @@ section  div  div  a:hover{
         align-items: center;
         align-content: center;
     }
+
+}
