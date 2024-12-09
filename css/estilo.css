@@ -699,5 +699,11 @@ section  div  div  a:hover{
         align-items: center;
         align-content: center;
     }
+    .panel{
+        width: 100vw;
+        flex-shrink: 0;
+        height: 100vh;
+        display: none;
+}
 
 }
