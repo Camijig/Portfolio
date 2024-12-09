@@ -670,6 +670,9 @@ section  div  div  a:hover{
     #inicio #about #marca #trabajos #contacto{
         display: none;
     }
+    .computador{
+        width: 80%;
+    }
     .aviso{
         text-align: center;
         overflow: hidden;
@@ -946,6 +949,9 @@ section  div  div  a:hover{
         justify-content: center;
         align-items: center;
         align-content: center;
+    }
+    .computador{
+        width: 80%;
     }
     #sexto{
         flex-direction: column;
