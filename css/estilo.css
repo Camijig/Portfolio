@@ -667,6 +667,9 @@ section  div  div  a:hover{
     
 }
 @media screen and (max-width: 718px) {
+    #inicio #about #marca #trabajos #contacto{
+        display: none;
+    }
     .aviso{
         text-align: center;
         overflow: hidden;
@@ -923,6 +926,9 @@ section  div  div  a:hover{
     
 }
 @media screen and (max-width: 561px){
+    #inicio #about #marca #trabajos #contacto{
+        display: none;
+    }
     .aviso{
         text-align: center;
         overflow: hidden;
