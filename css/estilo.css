@@ -367,7 +367,7 @@ section  div  div  a:hover{
     margin: auto;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
 }
@@ -482,7 +482,7 @@ section  div  div  a:hover{
     height: 70%;
 }
 .parte1{
-    width: auto;
+    width: 40%;
     text-align: left;
     padding: 0 20px
 }
