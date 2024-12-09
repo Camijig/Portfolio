@@ -673,6 +673,10 @@ section  div  div  a:hover{
     .computador{
         width: 80%;
     }
+    .misdatos{
+        text-align: left;
+        padding: 0 20px
+    }
     .aviso{
         text-align: center;
         overflow: hidden;
@@ -682,7 +686,8 @@ section  div  div  a:hover{
         text-transform: uppercase;
         font-size: 7vh;
         font-family: 'Tilt Warp', cursive;
-        position: sticky;
+        position: absolute;
+        top: 0px;
         width: 100vw;
         flex-shrink: 0;
         height: 100vh;
