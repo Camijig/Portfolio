@@ -676,12 +676,14 @@ section  div  div  a:hover{
         text-transform: uppercase;
         font-size: 7vh;
         font-family: 'Tilt Warp', cursive;
-        animation: title 1s 1s 1 ease forwards;
         position: sticky;
         width: 100vw;
         flex-shrink: 0;
         height: 100vh;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
     .boton{
         padding: 5px 50px;
@@ -930,12 +932,14 @@ section  div  div  a:hover{
         text-transform: uppercase;
         font-size: 7vh;
         font-family: 'Tilt Warp', cursive;
-        animation: title 1s 1s 1 ease forwards;
         position: sticky;
         width: 100vw;
         flex-shrink: 0;
         height: 100vh;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
     #sexto{
         flex-direction: column;
