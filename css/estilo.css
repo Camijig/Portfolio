@@ -598,7 +598,11 @@ section  div  div  a:hover{
 .botones{
     display: none;
 }
-
+#trabajos #segundo img{
+    margin: 7px;
+    width: 40vw;
+    border-radius: 5px;
+}
 @keyframes llenar {
     0%{background-color: #D5671D;}
     100%{transform: translateX(var(--barra-largo)); background-color: #36A9E1;}
