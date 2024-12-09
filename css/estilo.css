@@ -21,6 +21,9 @@ html, body {
     
     
 }
+.aviso{
+    display: none;
+}
 
 body{
     text-align: center;
@@ -664,6 +667,22 @@ section  div  div  a:hover{
     
 }
 @media screen and (max-width: 718px) {
+    .aviso{
+        text-align: center;
+        overflow: hidden;
+        z-index: 10009;
+        background-color: #D5671D;
+        color: aliceblue;
+        text-transform: uppercase;
+        font-size: 7vh;
+        font-family: 'Tilt Warp', cursive;
+        animation: title 1s 1s 1 ease forwards;
+        position: sticky;
+        width: 100vw;
+        flex-shrink: 0;
+        height: 100vh;
+        display: none;
+    }
     .boton{
         padding: 5px 50px;
         border-radius: 30px;
