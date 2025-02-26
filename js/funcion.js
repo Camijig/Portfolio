@@ -132,7 +132,7 @@ function mostrar1(){
 }
  
 function mostrar2(){
-  document.getElementById('trabajos').style.backgroundColor = '#592F70';
+  document.getElementById('trabajos').style.backgroundColor = '#351f4c';
   document.getElementById('primero').style.display = 'none';
   document.getElementById('segundo').style.display = 'flex';
   document.getElementById('tercero').style.display = 'none';
