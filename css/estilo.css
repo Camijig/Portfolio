@@ -666,7 +666,7 @@ section  div  div  a:hover{
     }
     
 }
-@media screen and (max-width: 718px) {
+/* @media screen and (max-width: 718px) {
     header{
         display:none;
          }
@@ -706,4 +706,4 @@ section  div  div  a:hover{
         display: none;
 }
 
-}
+}*/
