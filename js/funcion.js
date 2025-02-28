@@ -34,7 +34,7 @@ function ejecutarCodigo() {
 
     function contador() {
         cont1.textContent = cant1 += 1;
-        if (cant1 === 21) {
+        if (cant1 === 22) {
             clearInterval(tiempo1);
         }
     }

@@ -483,7 +483,7 @@ section  div  div  a:hover{
     text-align: center;
     width: 60%;
     top: -10px;
-    height: 70%;
+    height: 85%;
 }
 .parte1{
     width: 20%;
@@ -498,7 +498,7 @@ section  div  div  a:hover{
 
 }
 
-.parte2 div p{
+.chiquito{
     white-space: pre-line;
     text-align: left;
     
@@ -522,7 +522,7 @@ section  div  div  a:hover{
     height: auto;
     margin-bottom: 10px;
     left: 0px;
-    padding: 0 20px;
+    text-align: left;
     transition: all 1s ease-in-out;
 }
 #diploma1:hover .edu{
