@@ -771,6 +771,10 @@ margin: auto;
         width: 12vw;
 
     }
+    section  div div  a{
+    padding: 8px 17px;
+    font-size: 2vh;
+}
     .copy{
         width: 90%;
         padding: 2% 2%;
@@ -873,8 +877,7 @@ margin: auto;
     }
 
     #primero, #segundo, #tercero, #cuarto, #quinto, #sexto{
-
-        width: 95vw;
+        width: 90vw;
     }
     section  div div  a{
         margin-right: 10px;
@@ -882,14 +885,8 @@ margin: auto;
     }
 
     #trabajos .foto{
-        width: 35vw;
+        width: 30vw;
         height: 30vh;
-    }
-    #trabajos #cuarto img{
-        width: 25vw;
-        height: 30vh;
-
-        
     }
     .panel1{
         flex-direction: column;
