@@ -752,12 +752,6 @@ margin: auto;
     .hovers img{
         width: 6vw;
     }
-    .img-show{
-        width: 85vw;
-        height: 70vh;
-        object-fit: contain;
-
-    }
 }
 
 @media screen and (max-width: 798px) {
@@ -1040,6 +1034,7 @@ margin: auto;
     }
     #primero, #segundo, #tercero, #cuarto, #quinto, #sexto{
         width: 90vw;
+        height: 85vh;
     }
     .titulos{
         text-transform: uppercase;
