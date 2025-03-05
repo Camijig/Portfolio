@@ -599,9 +599,9 @@ section  div  div  a:hover{
 
 /*GALERÃA*/
 .container-img{
-    width: 90vw;
+    width: 80vw;
     margin: auto;
-    height: 90vh;
+    height: 75vh;
     left: 3%;
     top: 16px;
     border-radius: 15px;
