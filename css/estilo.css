@@ -837,7 +837,7 @@ margin: auto;
      #inicio{
         background-image: url(../recursos/inicio/responsive.jpg);
         background-size:cover;
-        background-position: 10px 30%;
+        background-position: center;
 
      }
      body{
@@ -883,7 +883,7 @@ margin: auto;
 
     #trabajos .foto{
         width: 35vw;
-        height: 40vh;
+        height: 30vh;
     }
     #trabajos #cuarto img{
         width: 25vw;
