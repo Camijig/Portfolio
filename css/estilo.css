@@ -620,7 +620,7 @@ section  div  div  a:hover{
 .img-show{
     position: absolute;
     top: 50px;
-    width: 95vw;
+    width: 75vw;
     height: 70vh;
     object-fit: contain;
 }
@@ -636,11 +636,6 @@ section  div  div  a:hover{
 }
 .botones{
     display: none;
-}
-#trabajos #segundo img{
-    margin: 7px;
-    width: 40vw;
-    border-radius: 5px;
 }
 .botonws img{
     height:10vh;
@@ -873,11 +868,11 @@ margin: auto;
         width: 50vh;
         object-fit: cover;
         object-position: 0px 0px;
-        
     }
 
     #primero, #segundo, #tercero, #cuarto, #quinto, #sexto{
         width: 90vw;
+        height: 80vh;
     }
     section  div div  a{
         margin-right: 10px;
