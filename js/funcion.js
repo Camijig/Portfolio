@@ -1,4 +1,12 @@
 
+// ESTE ES PARA EL PRE-LOAD
+window.onload = function (){
+  var cargando = document.getElementById("load");
+  cargando.style.display = "none";
+  cargando.style.opacity = 0;
+  cargando.style.transitionDelay = "3s"
+}
+
 // ESTE ES PARA LAS ANIMACIONES DE INICIO
 function reiniciarAnimaciones() {
   const logo = document.getElementById('logo');
@@ -30,7 +38,7 @@ function ejecutarCodigo() {
     }
 
     let cant1 = 0;
-    let tiem = 200;
+    let tiem = 150;
 
     function contador() {
         cont1.textContent = cant1 += 1;
@@ -49,7 +57,7 @@ function ejecutarCodigo() {
 }
 
 miEnlace.addEventListener("click", ejecutarCodigo);
-
+document.addEventListener("DOMContentLoaded", ejecutarCodigo);
 
 
 
@@ -78,10 +86,10 @@ function ejecutarAnimacion() {
 
 
 // ESTE ES PARA RESPONSIVE
-const btnMenu = document.querySelector("header");
-const menu = document.querySelector("#menu");
-btnMenu.addEventListener("click", function(){
-  menu.classList.toggle("mostrar");
+const menu = document.querySelector("header");
+menu.addEventListener("click", function(){
+  const btnMenu = document.querySelector("header nav");
+  btnMenu.classList.toggle("mostrar");
 })
 
 // ESTE ES PARA ESTILO DE BOTÓN SELECCIONADO
@@ -107,10 +115,18 @@ function  seleccionar2(link){
   //agregamos el estilo al link seleccionado
   link.className = "este"
 }
-// ESTE ES PARA MOSTRAR CADA SECCIÓN en "sobre mi"
 
+function  seleccionar3(link){
+  let links = document.querySelectorAll(".botones a")
+  links[0].className = "";
+  links[1].className = "";
+  //agregamos el estilo al link seleccionado
+  link.className = "boton2"
+}
+
+// ESTE ES PARA MOSTRAR CADA SECCIÓN en "sobre mi"
 function sobremi1(){
-  document.getElementById('res1').style.display = 'block';
+  document.getElementById('res1').style.display = 'flex';
   document.getElementById('res2').style.display = 'none';
 
 }
@@ -119,6 +135,8 @@ function sobremi2(){
   document.getElementById('res2').style.display = 'block';
 
 }
+
+
 // ESTE ES PARA MOSTRAR CADA SECCIÓN en "trabajos"
 //3D
 function mostrar1(){

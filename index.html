@@ -14,12 +14,20 @@
 
 </head>
 <body>
-      <!-- aviso responsive -->
+   <!--PRE-LOAD-->
+   <div id="load">
+    <div id="loader">
+    <img src="recursos/Comp 1 1.gif" alt="animación de carga">
+  </div>
+  </div>
+   <!--cierre PRE-LOAD-->
+      <!-- aviso responsive-->
     <div class="aviso">
       <div class="computador"><p>La versión para celular está en proceso, por favor ver en un computador. ¡Gracias!</p></div>
       
     </div>
-    <!-- cierre aviso -->
+    <!--cierre aviso -->
+
   <!-- INICIO -->
 <header>
   <div id="todo">
@@ -37,7 +45,7 @@
   </ul>
   </nav>
 </div>
-  <span class="nav-bar" id="btnMenu"><img src="recursos/inicio/iconoresponsive.png" alt="" class="ham"></span>
+  <span class="nav-bar" id="btnMenu"><img src="recursos/inicio/iconoresponsive.png" alt="Menú responsive" class="ham"></span>
 </header>
 <!-- CIERRE INICIO -->
 
@@ -59,12 +67,13 @@ Diseñadora visual</p></div></div>
 
 <!-- SOBRE MÍ -->
 <div class="botones">
-  <a href="#res1" onclick="sobremi1()" class="boton">1</a>
-  <a href="#res2" onclick="sobremi2()" class="boton">2</a>
+  <a href="#res1" onclick="sobremi1(), ejecutarAnimacion(), ejecutarCodigo(), seleccionar3(this)">Profesional</a>
+  <a  href="#res2" onclick="sobremi2(), seleccionar3(this)">Experiencia</a>
 </div>
 <section id="about" class="panel">
-  <div class="hv">
+  iv class="hv">
     <div class="parte1" id="res1">
+      <div>
       <img src="recursos/sobre/1695214050041.jpg" class="perfil" alt="">
       <div class="espacio">
    
@@ -132,10 +141,25 @@ Diseñadora visual</p></div></div>
   </div>
   </div>
   </div>
+  <div id="esconder">
+    <div class="tamaño">
+<h1 class="maintext">Camila Jiménez Galeano</h1>
+<h2 class="maintext2">Diseñadora Visual</h2>
+<div>
+  <div>
+    <p class="chiquito">Mi nombre es Camila Jiménez Galeano, diseñadora visual de la Fundación Universitaria Compensar, mi enfoque es la ilustración, la edición fotográfica, el diseño web y la animación 2D. 
+      
+      El diseño web y la animación 2D son mi fuerte, la sencillez, el espacio y la limpieza en mis piezas gráficas son parte de mi línea gráfica.
+    </p>
+  </div>
+  </div>
+  </div>
+</div>
+  </div>
   
 
   <div class="parte2" id="res2">
-    <div class="tamaño">
+    <div class="tamaño ocultar">
 <h1 class="maintext">Camila Jiménez Galeano</h1>
 <h2 class="maintext2">Diseñadora Visual</h2>
 <div>
@@ -154,24 +178,24 @@ Diseñadora visual</p></div></div>
       <div id="diploma1">
         <img src="recursos/sobre/500w/Recurso 1.png" class="dim" alt="">
         <div class="edu">
-          <p>Fundación Universitaria Compensar
-            Profesional en Diseño Visual
+          <p>Fundación Universitaria Compensar.
+            Profesional en Diseño Visual.
               2024</p>
         </div>
       </div>
       <div id="diploma2">
         <img src="recursos/sobre/500w/negro.png" class="dim" alt="">
         <div class="educ">
-          <p>Fundación Universitaria Compensar
-            Diplomado en Creación y Posicionamiento de Marcas en la era Digital
+          <p>Fundación Universitaria Compensar.
+            Diplomado en Creación y Posicionamiento de Marcas en la era Digital.
             2023</p>
         </div>
       </div>
       <div id="diploma3">
         <img src="recursos/sobre/500w/azul.png" class="dim" alt="">
         <div class="educa">
-          <p>Corporación Unificada Nacional de Educación Superior CUN
-            Especialización en Gerencia de la Marca
+          <p>Corporación Unificada Nacional de Educación Superior CUN.
+            Especialización en Gerencia de la Marca.
             En curso</p>
         </div>
     </div>
@@ -187,8 +211,8 @@ Diseñadora visual</p></div></div>
           <!-- EFECTO HOVER 1 -->
         
           <div class="primero">
-              <p>Diseñadora Visual: Prácticas, creación de guías para organizaciones internacionales e Imagen en misiones comerciales digitales
-              Ulead International, México
+              <p>Diseñadora Visual: Prácticas, creación de guías para organizaciones internacionales e Imagen en misiones comerciales digitales.
+              Ulead International, México.
               6 meses</p>
           </div>
         </div>
@@ -197,8 +221,8 @@ Diseñadora visual</p></div></div>
         <div id="amigoA">
           <img src="recursos/sobre/logo-06.png" alt="">
           <div class="segundo">
-                <p>Manager de Arte: Prácticas, edición de podcast, piezas gráficas y manejo de página web
-              AmiGo Abroad, México
+                <p>Manager de Arte: Prácticas, edición de podcast, piezas gráficas y manejo de página web.
+              AmiGo Abroad, México.
               4 meses</p>
         </div>
       </div>
@@ -207,7 +231,8 @@ Diseñadora visual</p></div></div>
         <div id="griky">
           <img src="recursos/sobre/logo_griky.png" alt="">
           <div class="tercero">
-                <p>Diseñar recursos educativos virtuales (Infografías, multimedias, podcast, videos, articulate 360, ebook)
+                <p>Diseñar recursos educativos virtuales (Infografías, multimedias, podcast, videos, articulate 360, ebook).
+                  Alianza Superior, Colombia.
               6 meses</p>
         </div>
       </div>
@@ -217,7 +242,18 @@ Diseñadora visual</p></div></div>
           <img src="recursos/sobre/decameron.png" alt="">
           <div class="cuarto">
                 <p>Edición web. Mails, infografías, post, storys y reels. Programación de contenido para RRSS. 
+              Hoteles Decameron, Colombia.
               6 meses</p>
+        </div>
+      </div>
+        <!-- cierre de efecto -->
+                    <!-- EFECTO HOVER 5 -->
+        <div id="Beta">
+          <img src="recursos/sobre/logo.png" alt="">
+          <div class="quinto">
+                <p>Proyecto e-Learning para el INPEC. Virtualización de cursos a través de Storyline 360.
+                  Beta Group, Colombia
+              1 mes</p>
         </div>
       </div>
         <!-- cierre de efecto -->
@@ -246,7 +282,7 @@ Diseñadora visual</p></div></div>
     <a href="#tres" onclick="mostrar1(); seleccionar2(this)" class="tres" id="espacio2">3D</a>
     
     <a href="#dos" onclick="mostrar2(); seleccionar2(this)" class="dos" id="espacio">2D</a>
-    <a href="#foto" onclick="mostrar3(); seleccionar2(this)" class="fotog">FOTOMONTAJE</a>
+    <a href="#foto" onclick="mostrar3(); seleccionar2(this)" class="fotog">FOTOGRAFÍA</a>
     <a href="#dibujos" onclick="mostrar4(); seleccionar2(this)" class="dibujos">ILUSTRACIÓN</a>
     <a href="#piezas" onclick="mostrar5(); seleccionar2(this)" class="piezas">PIEZAS GRÁFICAS</a>
    
@@ -275,12 +311,12 @@ Diseñadora visual</p></div></div>
       <img class="foto imge img-21" src="recursos/trabajos - copia/2D/NaturaClick.gif"  alt="Hecho en After Effects e Illustrator, proyecto no existente de turismo">
 </div>
     </div>
-      <!-- fotomontaje -->
+      <!-- fotografía -->
     <div id="tercero" class="panel">
-      <img class="foto imge img-5" src="recursos/trabajos - copia/Fotomontaje/casita final.png" alt="Imagenes creadas para clase, me ayudó una amiga, Heidy C. Castillo C.">
-      <img class="foto imge img-6" src="recursos/trabajos - copia/Fotomontaje/montañas final.png" alt="Estimado de 20 horas de edición">
-      <img class="foto imge img-7" src="recursos/trabajos - copia/Fotomontaje/entre las nubes.png" alt="Se usaron solo 2 imágenes">
-      <img class="foto imge img-8" src="recursos/trabajos - copia/Fotomontaje/Edición final con luces (3).png" alt="Estimado de 12 horas de edición"></div>
+      <img class="foto imge img-5" src="recursos/trabajos - copia/Fotomontaje/IMG_20201218_122236_939.jpg" alt="Fotografía siguiendo líneas, diagonales">
+      <img class="foto imge img-6" src="recursos/trabajos - copia/Fotomontaje/IMG_20240602_085103.jpg" alt="Fotografía en contexto natural, ángulo contrapicado">
+      <img class="foto imge img-7" src="recursos/trabajos - copia/Fotomontaje/IMG_20240813_182314.jpg" alt="Fotografía nocturna">
+      <img class="foto imge img-8" src="recursos/trabajos - copia/Fotomontaje/Retrato GATO.png" alt="Fotografía de retrato, ángulo cenital"></div>
     </div>
       <!-- ilustración -->
     <div id="cuarto" class="panel">
@@ -311,20 +347,17 @@ Diseñadora visual</p></div></div>
 
 <!-- CONTACTO -->
 <section id="contacto" class="panel">
-<div class="hv">
-    <div class="misdatos">
-      <img src="recursos/sobre/1695214050041.jpg" class="perfil2" alt="">
-      <div class="espacio">
-   
-   <div class="datos"><p class="junto">Diseñadora Visual</p>
-   <p class="junto">calle 33a #14-19 </p>
-   <p class="junto">camijig@gmail.com</p>
-   <p class="junto">+57 314 536 4574</p>
-  </div>
-    </div>
-      </div>
-      </div>
-</section>
+  <div class="hv">
+      <div class="misdatos">
+        <img src="recursos/sobre/1695214050041.jpg" class="perfil2" alt="">
+      <p class="junto">Diseñadora Visual</p>
+      <p class="junto">Teusaquillo, Bogotá </p>
+      <p class="junto">camijig@gmail.com</p>
+      <p class="junto">+57 314 536 4574</p>
+        <a class="botonws junto" href="https://wa.me/+573145364574/?text=Hola, soy Camila" target="_blank"><img src="recursos/sobre/whatsapp-873316_640.png" alt="Whatsapp"></a>
+        </div>
+        </div>
+  </section>
 <!-- CIERRE CONTACTO -->
 <script src="js/funcion.js"></script>
 </html>

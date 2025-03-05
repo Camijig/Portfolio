@@ -19,6 +19,21 @@ html, body {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     
+}
+#load{
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    background: #ffffffcc;
+    display:flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+
+}
+#loader img{
+    width: 30vw;
+    height: auto;
     
 }
 .aviso{
@@ -34,7 +49,6 @@ body{
     text-align: center;
     background-color:#D5671D;
     width: 100vw;
-    
     transition: 0.5s all;
 }
 .botoncito{
@@ -63,7 +77,7 @@ header{
     position: fixed;
     bottom: 0px;
     transition: 0.5s all;
-    z-index: 10000;
+    z-index: 100;
 }
 .nav-bar{
     background-color: #D5671D;
@@ -118,8 +132,8 @@ header nav a:hover{
     width: 3vw;
     vertical-align:middle;
     height: auto;
-    border: white 3px solid;
-    padding: 4px;
+    border: white 0.2vw solid;
+    padding: 0.3vw;
     border-radius: 20%;
     transition: 0.5s all;
     filter: brightness(5);
@@ -127,14 +141,14 @@ header nav a:hover{
 
 .menu a:hover > .icono{
     filter: brightness();
-    border: #36A9E1 3px solid;
+    border: #36A9E1 0.2vw solid;
 }
 
 .titulos{
     text-transform: uppercase;
     font-size: 7vh;
     font-family: 'Tilt Warp', cursive;
-    padding: 25px;
+    padding: 1px;
     animation: title 1s 1s 1 ease forwards;
     border: solid 8px rgba(0, 0, 0, 0);
     border-style: none solid;
@@ -231,7 +245,7 @@ header nav a:hover{
 }
 .bajar{
     margin-top: 5px;
-    z-index: 900;
+    z-index: 90;
     position:absolute;
     top: 0px;
     right: 0px;
@@ -363,7 +377,7 @@ section  div  div  a:hover{
     border-radius: 25px;
 }
 .perfil2{
-    width: 50vh;
+    width: 20vw;
     height: auto;
     border-radius: 25px;
 }
@@ -403,7 +417,21 @@ section  div  div  a:hover{
     color: #D5671D;
     font-family: 'Tilt Warp', cursive;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 4px;
 }   
+
+.app .junto{
+    margin-bottom: 10px;
+}
+
+.iconitos{
+    width: auto;
+    margin-right: 10px;
+    height: 4vh;
+}
+
 .barra{
     
     width: 150px;
@@ -413,15 +441,6 @@ section  div  div  a:hover{
     position: relative;
     overflow: hidden;
 
-}
-.app .junto{
-    margin-bottom: 10px;
-}
-
-.iconitos{
-    width: auto;
-    margin-right: 10px;
-    height: 4vh;
 }
 
 .barra::after{
@@ -467,7 +486,7 @@ section  div  div  a:hover{
     color: #D5671D;
     font-family: 'Tilt Warp', cursive;
     letter-spacing: 2px;
-    font-size: 8vh;
+    font-size: 4vw;
     text-transform: uppercase;
 }
 .maintext2{
@@ -487,7 +506,6 @@ section  div  div  a:hover{
 }
 .parte1{
     width: 20%;
-    text-align: left;
     padding: 0 20px
 }
 
@@ -497,7 +515,9 @@ section  div  div  a:hover{
     height: auto;
 
 }
-
+#esconder{
+    display: none;
+}
 .chiquito{
     white-space: pre-line;
     text-align: left;
@@ -505,7 +525,7 @@ section  div  div  a:hover{
 }
 .flex{
     display: flex;
-    width: 90%;
+    width: 100%;
     align-items: flex-start;
     align-content:flex-start;
 }
@@ -515,15 +535,17 @@ section  div  div  a:hover{
     width: 100%;
 }
 
-.primero, .segundo, .tercero, .cuarto, .edu, .educ, .educa{
+.primero, .segundo, .tercero, .cuarto, .quinto, .edu, .educ, .educa{
     position: absolute;
     display: none;
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
     left: 0px;
-    text-align: left;
     transition: all 1s ease-in-out;
+    text-align: left;
+    white-space: pre-line;
+    border-left: #36A9E1 solid 5px;
+    padding-left: 10px;
 }
 #diploma1:hover .edu{
     display: block;
@@ -546,19 +568,33 @@ section  div  div  a:hover{
 #decameron:hover .cuarto{
     display: block;
 }
+#Beta:hover .quinto{
+    display: block;
+}
 .hovers{
-    position: relative;
     top: 0;
     margin-top: 0;
+    position: relative;
+}
+.est{
+    width: 40vw;
 }
 .hovers img{
-    height: 7vh;
-    width: auto;
-    margin: 7px;
+    width: 70px;
+    margin-right: 15px;
+    margin-top: 20px;
+    transform: translate(0%, -50%);
+    filter: opacity(50%);
+    padding-bottom: 10px;
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: #36a8e100 5px solid;
 }
 .hovers img:hover{
-    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.4));
     cursor: pointer;
+    transform: scale(1.2) translate(0%, -50%);
+    filter: opacity(100%);
+    border-bottom: #36A9E1 5px solid;
+    border-radius: 0px 0px 10px 10px;
 }
 
 /*GALERÃA*/
@@ -584,9 +620,9 @@ section  div  div  a:hover{
 .img-show{
     position: absolute;
     top: 50px;
+    width: 95vw;
     height: 70vh;
-    display: block;
-    width: auto
+    object-fit: contain;
 }
 .copy{
     position: fixed;
@@ -606,10 +642,22 @@ section  div  div  a:hover{
     width: 40vw;
     border-radius: 5px;
 }
+.botonws img{
+    height:10vh;
+    opacity: 100%;
+margin: auto;
+}
+.botonws img:hover{
+    filter: drop-shadow(0 0 5px #00c524);
+}
+#contacto img{
+    margin-bottom: 10px;
+}
 @keyframes llenar {
     0%{background-color: #D5671D;}
     100%{transform: translateX(var(--barra-largo)); background-color: #36A9E1;}
 }
+
 @keyframes color {
     20%{color: #36A9E1; transform: scale(1);}
     40%{color: #000000; transform: scale(1.2);}
@@ -666,44 +714,353 @@ section  div  div  a:hover{
     }
     
 }
-@media screen and (max-width: 718px) {
-    header{
-        display:none;
-         }
-    #inicio #about #marca #trabajos #contacto{
+@media screen and (max-width: 1064px){
+    .parte2{
+        width: 60%;
+        height: 85%;
+    }
+    .maintext{
+        font-size: 6vh;
+    }
+    .parte1{
+        width: auto;
+    }
+    .hovers img{
+        width: 5vw;
+        margin-top: 30px;
+    }
+    .maintext{
+        font-size: 6vh;
+    }
+
+}
+
+@media screen and (max-width: 987px) {
+    .titulos{
+        font-size:5vh;
+    }
+    .parte2{
+        width: 72%;
+        height: 87%;
+    }
+    .barra{
+    
+        width: 120px;    
+    }
+    
+    .barra::after{
+        width: 100px;
+        left: -100px;
+    }
+    .perfil{
+        width: 100px;
+    }
+    .hovers img{
+        width: 6vw;
+    }
+    .img-show{
+        width: 85vw;
+        height: 70vh;
+        object-fit: contain;
+
+    }
+}
+
+@media screen and (max-width: 798px) {
+    .hovers img{
+        width: 12vw;
+
+    }
+    .copy{
+        width: 90%;
+        padding: 2% 2%;
+    }
+
+     .menu a{
+        display: block;
+        margin-left: 0px;
+        bottom: 0px;
+     }
+     header nav.mostrar{
+        display: block;
+        transition: all 5s ease;
+    }
+     header nav{
+          display: none;
+        
+     }
+     .menu a:hover{
+        background-color: rgb(0, 0, 0);
+        transform: none;
+     }
+     .nav-bar{
+        display: block;
+     }
+     .menu:hover{
+        background-color:#d5671d;
+        
+    }
+    .icono{
+        width: auto;
+        height: 5vw;
+        border: none;
+        padding: 0px;
+        border-radius: 20%;
+    }
+    .menu a:hover > .icono{
+        filter: brightness();
+        border: none;
+    }
+    .centrar{
+        display: block;
+        bottom: 10px;
+        width: 100%;
+        margin-top: 60%;
+    }
+    .columnas{
+        display:block;
+        align-items: end;
+        justify-content: end;
+        width: 100%;
+        height: 100%;
+    
+     }
+     .logo{
         display: none;
+     }
+    
+    .porcentaje{
+        width: 100%;
+        margin: 50px;
+    
     }
-    .computador{
-        width: 80%;
-    }
-    .misdatos{
-        text-align: left;
-        padding: 0 20px
-    }
-    .aviso{
+     #inicio{
+        background-image: url(../recursos/inicio/responsive.jpg);
+        background-size:cover;
+        background-position: 10px 30%;
+
+     }
+     body{
         text-align: center;
+        display: block;
         overflow: hidden;
-        z-index: 10009;
-        background-color: #D5671D;
-        color: aliceblue;
-        text-transform: uppercase;
-        font-size: 5vw;
-        font-family: 'Tilt Warp', cursive;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+    }
+    .titulos, .imagenes, .texto{
+        border-radius: 10px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .porcentaje{
+        width: auto;
     }
     .panel{
         width: 100vw;
         flex-shrink: 0;
         height: 100vh;
-        display: none;
-}
+    }
 
+    .logo{
+       width: 50%;
+    }
+    .imagenes{
+        border-radius: 100%;
+        height: 50vh;
+        width: 50vh;
+        object-fit: cover;
+        object-position: 0px 0px;
+        
+    }
+
+    #primero, #segundo, #tercero, #cuarto, #quinto, #sexto{
+
+        width: 95vw;
+    }
+    section  div div  a{
+        margin-right: 10px;
+        font-size: 2vh;
+    }
+
+    #trabajos .foto{
+        width: 35vw;
+        height: 40vh;
+    }
+    #trabajos #cuarto img{
+        width: 25vw;
+        height: 30vh;
+
+        
+    }
+    .panel1{
+        flex-direction: column;
+    }
+
+    #trabajos iframe{
+        width: 40vw;
+        height: auto;    
+    }
+    .botones a{
+        padding: 5px 50px;
+        color: #DBDBDB;
+        border-radius: 30px;
+        top: 50px;
+        text-decoration: none;
+    }
+    .boton2{
+        filter: opacity(1);  
+        background-color: #D5671D;
+        transition: ease-in-out 0.5s;      
+    }
+
+    .flex1{
+        display: inline-block;
+        height: 65vh;
+    }
+    .flex1 .flex{
+        margin-bottom: 80px;
+        height: 20vh;
+    }
+    .hovers{
+        position: relative;
+    }
+    .hovers p {
+        width: 75vw;
+        white-space: pre-line;
+        
+    }
+    .laboral p {
+        white-space: pre-line;
+        width: 90%;
+        left: 0px;
+        position: relative;
+        
+    }
+    #esconder{
+        display: block;
+    }
+    .ocultar{
+        display: none;
+    }
+    .botones{
+        position: absolute;
+        margin-top: 20px;
+        z-index: 200;
+        text-align: center;
+        display: flex;
+        left: 50%;
+        border-radius: 30px;
+        transform: translate(-50%, 0);
+        background-color: #50287f;
+        
+    }
+    #esconder{
+        display: block;
+        width: 60vw;
+        margin-left: 20px;
+    }
+    .hv{
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .maintext{
+        font-size: 3vh;
+    }
+    .maintext2{
+        font-size: 2vh;
+        margin-left: 0px;
+    }
+
+    .perfil{
+        width: 25vw;
+    }
+
+    .contador{
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+    .chiquito{
+        font-size: 0.9em;
+    }
+
+    .barra{
+        width: 50px;
+        height: 7px;
+    
+    }
+
+    .iconitos{
+        height: 3.5vh;
+    }
+    
+    .barra::after{
+        width: 50px;
+        height: 7px;
+        left: -50px; 
+    }
+    
+    .parte2{
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+    }
+
+    .parte1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+    #diploma1:hover, #diploma2:hover, #diploma3:hover, #ulead:hover, #amigoA:hover{
+        height:120px;
+    }
+    
+    #sexto a img{
+        width: 20vh;
+        height: 20vh;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .perfil2{
+        width: 30vw;
+        height: auto;
+        border-radius: 25px;
+}
+    
+}
+@media screen and (max-width: 561px){
+    #sexto{
+        flex-direction: column;
+        display: none
+    }
+    #cuarto img{
+        width: 20vw;
+
+    }
+    #primero, #segundo, #tercero, #cuarto, #quinto, #sexto{
+        width: 90vw;
+    }
+    .titulos{
+        text-transform: uppercase;
+        font-size: 4vh;
+        font-family: 'Tilt Warp', cursive;
+        padding: 20px;
+        animation: title 1s 1s 1 ease forwards;
+        border: solid 4px rgba(0, 0, 0, 0);
+        border-style: none solid;
+        opacity: 0;
+        height: 8vh;
+    }
+    .perfil2{
+        width: 30vw;
+        height: auto;
+        border-radius: 25px;
+}
 }
