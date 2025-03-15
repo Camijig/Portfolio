@@ -890,10 +890,6 @@ margin: auto;
         flex-direction: column;
     }
 
-    #trabajos iframe{
-        width: 40vw;
-        height: auto;    
-    }
     .botones a{
         padding: 5px 50px;
         color: #DBDBDB;
