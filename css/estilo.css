@@ -339,8 +339,9 @@ section  div  div  a:hover{
 #ytp-title-text{
     display: none;
 }
-.ytp-overflow-icon{
+.ytp-title{
     display: none;
+    opacity: 0;
 }
 
 #trabajos iframe:hover{
