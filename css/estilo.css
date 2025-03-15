@@ -604,6 +604,9 @@ section  div  div  a:hover{
 }
 
 /*GALERÃA*/
+.move{
+    transform: translateX(0%)
+}
 .container-img{
     width: 89vw;
     margin: auto;
@@ -619,9 +622,6 @@ section  div  div  a:hover{
     transition: all 0.7s ease;
     position: absolute;
     z-index: 9000
-}
-.move{
-    transform: translateX(0%)
 }
 .img-show{
     position: absolute;
@@ -769,10 +769,10 @@ margin: auto;
     section  div div  a{
     padding: 8px 17px;
     font-size: 2vh;
-}
+    }
     .bajar{
     margin-top: 2px;
-}
+    }
     .copy{
         width: 90%;
         padding: 2% 2%;
@@ -1027,7 +1027,16 @@ margin: auto;
         width: 30vw;
         height: auto;
         border-radius: 25px;
-}
+    }
+    .container-img{
+        width: 75vw;
+        height: 80vh;
+    }
+    .img-show{
+        top: 50px;
+        width: 65vw;
+        height: 70vh;
+    }
     
 }
 @media screen and (max-width: 561px){
