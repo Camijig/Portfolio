@@ -336,6 +336,10 @@ section  div  div  a:hover{
     height: auto;
 
 }
+#ytp-title-text{
+    display: none;
+}
+
 #trabajos iframe:hover{
     filter: grayscale(0.5) invert(0.1);
     cursor: pointer;
