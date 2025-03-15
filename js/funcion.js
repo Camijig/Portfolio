@@ -105,25 +105,6 @@ function  seleccionar(link){
   link.className = "selected"
 }
 
-function  seleccionar2(link){
-  let links = document.querySelectorAll("div#carpetas a")
-  links[0].className = "";
-  links[1].className = "";
-  links[2].className = "";
-  links[3].className = "";
-  links[4].className = "";
-  //agregamos el estilo al link seleccionado
-  link.className = "este"
-}
-
-function  seleccionar3(link){
-  let links = document.querySelectorAll(".botones a")
-  links[0].className = "";
-  links[1].className = "";
-  //agregamos el estilo al link seleccionado
-  link.className = "boton2"
-}
-
 // ESTE ES PARA MOSTRAR CADA SECCIÓN en "sobre mi"
 function sobremi1(){
   document.getElementById('res1').style.display = 'flex';
@@ -136,59 +117,97 @@ function sobremi2(){
 
 }
 
+function  seleccionar2(link){
+  let links = document.querySelectorAll("div#carpetas a")
+  links[0].className = "";
+  links[1].className = "";
+  links[2].className = "";
+  links[3].className = "";
+  links[4].className = "";
+  links[5].className = "";
+  //agregamos el estilo al link seleccionado
+  link.className = "este"
+}
+
+function  seleccionar3(link){
+  let links = document.querySelectorAll(".botones a")
+  links[0].className = "";
+  links[1].className = "";
+  //agregamos el estilo al link seleccionado
+  link.className = "boton2"
+}
 
 // ESTE ES PARA MOSTRAR CADA SECCIÓN en "trabajos"
 //3D
 function mostrar1(){
-  document.getElementById('trabajos').style.backgroundColor = '#50287f';
+  document.getElementById('trabajos').style.backgroundColor = '#4f287e';
   document.getElementById('primero').style.display = 'flex';
   document.getElementById('segundo').style.display = 'none';
   document.getElementById('tercero').style.display = 'none';
   document.getElementById('cuarto').style.display = 'none';
   document.getElementById('quinto').style.display = 'none';
+  document.getElementById('sexto').style.display = 'none';
+
 
 }
  
 function mostrar2(){
-  document.getElementById('trabajos').style.backgroundColor = '#351f4c';
+  document.getElementById('trabajos').style.backgroundColor = '#5b3280';
   document.getElementById('primero').style.display = 'none';
   document.getElementById('segundo').style.display = 'flex';
   document.getElementById('tercero').style.display = 'none';
   document.getElementById('cuarto').style.display = 'none';
   document.getElementById('quinto').style.display = 'none';
+  document.getElementById('sexto').style.display = 'none';
+
 
 }
  
 function mostrar3(){
-  document.getElementById('trabajos').style.backgroundColor = '#6b4394';
+  document.getElementById('trabajos').style.backgroundColor = '#683c83';
   document.getElementById('primero').style.display = 'none';
   document.getElementById('segundo').style.display = 'none';
   document.getElementById('tercero').style.display = 'flex';
   document.getElementById('cuarto').style.display = 'none';
   document.getElementById('quinto').style.display = 'none';
+  document.getElementById('sexto').style.display = 'none';
+
 
 }
  
 function mostrar4(){
-  document.getElementById('trabajos').style.backgroundColor = '#5e56a1';
+  document.getElementById('trabajos').style.backgroundColor = '#754887';
   document.getElementById('primero').style.display = 'none';
   document.getElementById('segundo').style.display = 'none';
   document.getElementById('tercero').style.display = 'none';
   document.getElementById('cuarto').style.display = 'flex';
   document.getElementById('quinto').style.display = 'none';
+  document.getElementById('sexto').style.display = 'none';
+
 
 }
  
 function mostrar5(){
-  document.getElementById('trabajos').style.backgroundColor = '#4a4999';
+  document.getElementById('trabajos').style.backgroundColor = '#82558b';
   document.getElementById('primero').style.display = 'none';
   document.getElementById('segundo').style.display = 'none';
   document.getElementById('tercero').style.display = 'none';
   document.getElementById('cuarto').style.display = 'none';
   document.getElementById('quinto').style.display = 'flex';
+  document.getElementById('sexto').style.display = 'none';
 
 }
- 
+
+function mostrar6(){
+  document.getElementById('trabajos').style.backgroundColor = '#8f628f';
+  document.getElementById('primero').style.display = 'none';
+  document.getElementById('segundo').style.display = 'none';
+  document.getElementById('tercero').style.display = 'none';
+  document.getElementById('cuarto').style.display = 'none';
+  document.getElementById('quinto').style.display = 'none';
+  document.getElementById('sexto').style.display = 'flex';
+
+}
 
 
 // Galerí­a

@@ -271,25 +271,28 @@ section  div div  a{
     height: 10%;
 }
 #trabajos{
-    background-color: #50287f;
+    background-color: #4f287e;
 }
 #trabajos > div > div > .tres{
-    background-color: #50287f;
+    background-color: #4f287e;
 }
 #trabajos >div > div > .dos{
-    background-color: #592F70;
+    background-color: #5b3280;
 }
 #trabajos >div > div > .fotog{
-    background-color: #6b4394;
+    background-color: #683c83;
 }
 #trabajos > div >div > .dibujos{
-    background-color: #5e56a1;
+    background-color: #754887;
 }
 #trabajos > div >div > .piezas{
-    background-color: #4a4999;
+    background-color: #82558b;
+}
+#trabajos > div >div > .edit{
+    background-color: #8f628f;
 }
 #trabajos > div >div > .web{
-    background-color: #3f3c90;
+    background-color: #9c7093;
 }
 
 section  div  div  a:hover{
