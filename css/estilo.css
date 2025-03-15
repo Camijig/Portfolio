@@ -339,6 +339,9 @@ section  div  div  a:hover{
 #ytp-title-text{
     display: none;
 }
+.ytp-overflow-icon{
+    display: none;
+}
 
 #trabajos iframe:hover{
     filter: grayscale(0.5) invert(0.1);
