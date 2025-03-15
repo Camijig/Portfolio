@@ -336,17 +336,7 @@ section  div  div  a:hover{
     height: auto;
 
 }
-#ytp-title-text{
-    display: none;
-}
-.ytp-title{
-    display: none;
-    opacity: 0;
-}
-.ytp-shorts-mode{
-    display: none;
 
-}
 
 #trabajos iframe:hover{
     filter: grayscale(0.5) invert(0.1);
