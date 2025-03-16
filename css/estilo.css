@@ -715,6 +715,33 @@ margin: auto;
     }
     
 }
+@media screen and (max-width: 1370px){
+    .vertical{
+        width: 216.4px;
+        height: 385px;
+    }
+    .horizontal{
+        height: 385px;
+        width: 687px;
+    }
+    #sexto{
+        width: 95vw;
+    }
+
+}
+@media screen and (max-width: 1210px){
+    .vertical{
+        width: 180.4px;
+        height: 322px;
+    }
+    .horizontal{
+        height: 322px;
+        width: 572px;
+    }
+
+}
+
+
 @media screen and (max-width: 1064px){
     .parte2{
         width: 60%;
@@ -732,6 +759,14 @@ margin: auto;
     }
     .maintext{
         font-size: 6vh;
+    }
+    .vertical{
+        width: 168.3px;
+        height: 297px;
+    }
+    .horizontal{
+        height: 297px;
+        width: 529px;
     }
 
 }
@@ -758,6 +793,26 @@ margin: auto;
     }
     .hovers img{
         width: 6vw;
+    }
+    .vertical{
+        height: 174.3px;
+        width: 310px;
+    }
+    .horizontal{
+        height: 257px;
+        width: 459px;
+    }
+    #sexto div{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .betsim1{
+        display: none;
+    }
+    .betsim2{
+        display: block;
     }
 }
 
@@ -1034,23 +1089,14 @@ margin: auto;
         height: 70vh;
     }
     .vertical{
-        width: 190.5px;
-        height: 337px;
+        width: 170.5px;
+        height: 303px;
     }
     .horizontal{
-        height: 217px;
-        width: 386px;
-    }
-    #sexto div{
-        width: 100%;
+        height: 198px;
+        width: 352px;
     }
 
-    .betsim1{
-        display: none;
-    }
-    .betsim2{
-        display: block;
-    }
 
 }
 @media screen and (max-width: 561px){
@@ -1064,7 +1110,7 @@ margin: auto;
     }
     #primero, #segundo, #tercero, #cuarto, #quinto, #sexto{
         width: 90vw;
-        height: 85vh;
+        height: 100vh;
     }
     .titulos{
         text-transform: uppercase;
