@@ -1041,6 +1041,9 @@ margin: auto;
         height: 217px;
         width: 386px;
     }
+    #sexto div{
+        width: 100%;
+    }
 
     .betsim1{
         display: none;
