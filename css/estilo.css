@@ -327,15 +327,17 @@ section  div  div  a:hover{
     cursor: pointer;
     z-index: 10;
 }
-#trabajos iframe{
-    margin: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.526);
+iframe{
     border-radius: 10px;
-    object-fit: cover;
-    height: auto;
-    width: 20vw;
-
-
+    border: 0px;
+}
+.vertical{
+    width: 270px;
+    height: 480px;
+}
+.horizontal{
+    height: 270px;
+    width: 480px;
 }
 #sexto a img{
     width: 50vh;
@@ -1014,17 +1016,18 @@ margin: auto;
         border-radius: 25px;
     }
     .container-img{
-        width: 75vw;
+        width: 82vw;
         height: 80vh;
     }
     .img-show{
         top: 50px;
-        width: 65vw;
+        width: 72vw;
         height: 70vh;
     }
     #trabajos iframe{
         height: 40vh;
         width: auto;
+        display: block;
     
     
     }
