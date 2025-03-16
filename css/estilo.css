@@ -333,9 +333,16 @@ iframe{
     border: 0px;
     margin: 5px;
 }
+
+.betsim2{
+    display: none;
+}
+.betsim1{
+    display: block;
+}
 .vertical{
-    width: 424px;
-    height: 239px;
+    width: 239.4px;
+    height: 424px;
 }
 .horizontal{
     height: 424px;
@@ -868,7 +875,7 @@ margin: auto;
 
     #primero, #segundo, #tercero, #cuarto, #quinto, #sexto{
         width: 90vw;
-        height: 80vh;
+        height: 100vh;
     }
     section  div div  a{
         margin-right: 10px;
@@ -1025,6 +1032,21 @@ margin: auto;
         top: 50px;
         width: 72vw;
         height: 70vh;
+    }
+    .vertical{
+        width: 190.5px;
+        height: 337px;
+    }
+    .horizontal{
+        height: 217px;
+        width: 386px;
+    }
+
+    .betsim1{
+        display: none;
+    }
+    .betsim2{
+        display: block;
     }
 
 }
