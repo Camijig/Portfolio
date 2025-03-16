@@ -327,17 +327,21 @@ section  div  div  a:hover{
     cursor: pointer;
     z-index: 10;
 }
+#sexto div{
+    width: 100%;
+}
 iframe{
     border-radius: 10px;
     border: 0px;
+    margin: 20px;
 }
 .vertical{
-    width: 270px;
-    height: 480px;
+    width: 70px;
+    height: 280px;
 }
 .horizontal{
-    height: 270px;
-    width: 480px;
+    height: 70px;
+    width: 280px;
 }
 #sexto a img{
     width: 50vh;
