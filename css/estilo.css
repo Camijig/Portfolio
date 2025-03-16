@@ -590,9 +590,6 @@ section  div  div  a:hover{
 }
 
 /*GALERÃA*/
-.move{
-    transform: translateX(0%)
-}
 .container-img{
     width: 89vw;
     margin: auto;
@@ -608,6 +605,9 @@ section  div  div  a:hover{
     transition: all 0.7s ease;
     position: absolute;
     z-index: 9000
+}
+.move{
+    transform: translateX(0%)
 }
 .img-show{
     position: absolute;
