@@ -327,29 +327,27 @@ section  div  div  a:hover{
     cursor: pointer;
     z-index: 10;
 }
-#sexto div{
-    width: 100%;
-}
+
 iframe{
     border-radius: 10px;
     border: 0px;
-    margin: 20px;
+    margin: 5px;
 }
 .vertical{
-    width: 70px;
-    height: 280px;
+    width: 270px;
+    height: 480px;
 }
 .horizontal{
-    height: 70px;
-    width: 280px;
+    height: 270px;
+    width: 480px;
 }
-#sexto a img{
+#septimo a img{
     width: 50vh;
     height: 50vh;
     border-radius: 20px;
     object-fit: cover;
 }
-#trabajos #sexto a img:hover{
+#trabajos #septimo a img:hover{
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)) brightness(0.5); 
     border: none;
     cursor: pointer;
