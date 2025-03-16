@@ -220,6 +220,7 @@ images.forEach(image =>{
     image.addEventListener('click', ()=>{
         
         addImage(image.getAttribute('alt'), image.getAttribute('src'))
+        addEventListener('iframe'.getAttribute('alt'),'iframe'.getAttribute('src'))
     })
 })
 
