@@ -358,10 +358,6 @@ section  div  div  a:hover{
     flex-wrap: wrap;
     padding-bottom: 70px;
 }
- #sexto{
-     display:none;
-     }
-
 .animacion{
     animation-duration: 2s; /* DuraciÃ³n de la animaciÃ³n en segundos */
     animation-fill-mode: forwards;
