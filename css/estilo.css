@@ -328,7 +328,7 @@ section  div  div  a:hover{
     z-index: 10;
 }
 
-iframe{
+#sexto iframe{
     border-radius: 10px;
     border: 0px;
     margin: 5px;
@@ -1128,4 +1128,15 @@ margin: auto;
         height: auto;
         border-radius: 25px;
 }
+}
+@media screen and (max-width: 380px){
+    .vertical{
+        width: 141px;
+        height: 253px;
+    }
+    .horizontal{
+        height: 161px;
+        width: 288px;
+    }
+
 }
