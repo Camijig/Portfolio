@@ -334,12 +334,12 @@ iframe{
     margin: 5px;
 }
 .vertical{
-    width: 270px;
-    height: 480px;
+    width: 424px;
+    height: 239px;
 }
 .horizontal{
-    height: 270px;
-    width: 480px;
+    height: 424px;
+    width: 753px;
 }
 #septimo a img{
     width: 50vh;
@@ -1026,13 +1026,7 @@ margin: auto;
         width: 72vw;
         height: 70vh;
     }
-    #trabajos iframe{
-        height: 40vh;
-        width: auto;
-        display: block;
-    
-    
-    }
+
 }
 @media screen and (max-width: 561px){
     #sexto{
