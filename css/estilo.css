@@ -118,6 +118,7 @@ header nav a{
     color: #36A9E1;
     font-family: 'Tilt Warp', cursive;
     padding: 0px;
+    display: inline;
 }
 header nav a:hover{
     transform: translate(0, -5px);
