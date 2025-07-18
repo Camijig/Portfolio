@@ -113,7 +113,12 @@ header nav a{
     position: relative;
     opacity: 0.5;
 }
-
+caju{
+    text-decoration: none;
+    color: #36A9E1;
+    font-family: 'Tilt Warp', cursive;
+    padding: 0px;
+}
 header nav a:hover{
     transform: translate(0, -5px);
     opacity: 1;
