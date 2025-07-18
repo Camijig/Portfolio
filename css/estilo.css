@@ -119,6 +119,7 @@ header nav a{
     font-family: 'Tilt Warp', cursive;
     padding: 0px;
     display: inline;
+    writing-mode: horizontal-tb;
 }
 header nav a:hover{
     transform: translate(0, -5px);
